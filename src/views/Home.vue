@@ -3,7 +3,7 @@
      <HelloWorld/>
     <Services/>
 	<serv/>
-	<me/>
+	<AboutMe/>
 	<experience/>
 	<portfolio1/>
 	  <Footer/>
@@ -15,7 +15,7 @@
 import HelloWorld from '@/components/HelloWorld';
 import Services from '@/components/Services.vue'
 import serv from '@/components/serv';
-import me from '@/components/me';
+import AboutMe from '@/components/AboutMe';
 import experience from '@/components/experience';
 import portfolio1 from '@/components/portfolio1';
 import Footer from '../components/Footer'
@@ -28,7 +28,7 @@ export default {
 	Services,
 	HelloWorld,
 	serv,
-	me,
+	AboutMe,
 	experience,
 	portfolio1,
 	Footer

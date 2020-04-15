@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import portfolio from '@/components/portfolio.vue'
-import port from '@/components/port'
+import ContactUs from '@/components/ContactUs.vue'
+import Error from '@/components/Error.vue'
 
 Vue.use(VueRouter)
 
@@ -14,18 +14,18 @@ const routes = [{
     {
         path: '/contact',
         name: 'contact',
-        component: portfolio,
+        component: ContactUs,
         meta: { transition: 'fade-in-left' },
     },
     {
         path: '/portfolio',
         name: 'portfolio',
-        component: port,
+        component: Error,
         meta: { transition: 'fade-in-left' },
     }, {
         path: '/blog',
         name: 'blog',
-        component: port,
+        component: Error,
         meta: { transition: 'fade-in-left' },
     }
 ]
