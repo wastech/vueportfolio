@@ -35,6 +35,7 @@
 
     width: 40%;
     height: auto;
+	object-fit: cover;
 }
 
 .text {
