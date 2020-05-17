@@ -35,9 +35,9 @@ export default {
                     text: 'I was among the volounteer developers Organising and conducting the Osogbo Data science Community with the aims of cater for and training over 2 thousand students across the State.'
                 },
                 {
-                    icon: "2018-2019",
-                    hd: 'DSCUNIOSUN(MEMBER)',
-                    text: ' I managed a community of student developers on my campus to buildsolutions for local problems in a peer-to-peer learning environment'
+                    icon: "2018-2020",
+                    hd: 'professional freelancer[fiverr,upwork,freelancer]',
+                    text: '  I am working as a MEVN developer freelancer from last 2 years. I do the required task assigned by client to best of my abilities'
                 },
                 {
                     icon: "2019-2020",

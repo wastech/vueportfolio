@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import Error from '@/components/Error.vue'
+import portfolio from '@/components/portfolio.vue'
 
 Vue.use(VueRouter)
 
@@ -20,7 +21,7 @@ const routes = [{
     {
         path: '/portfolio',
         name: 'portfolio',
-        component: Error,
+        component: portfolio,
         meta: { transition: 'fade-in-left' },
     }, {
         path: '/blog',

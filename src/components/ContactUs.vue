@@ -1,136 +1,233 @@
 <template>
-<div class="container">
-    <h5> let's create progress together</h5>
-    <div class="row">
-        <div class="neumorphic variation1 col-sm" v-for="item in items" :key="item">
-            <span><strong>
-                    <a :href="item.link">
-                        <i :class="item.icon">
-                        </i>
-                    </a></strong></span>
-        </div>
+<div>
+    
+  <section id="fancy-form">
+   <div class="container">
+    <div class="form-sections">
+      <!-- Form left -->
+      <div class="Form-left">
+        <h1>Get In Touch</h1>
+        <div class="line"></div> <!--border-bottom line-->
+        <p>Contact us for latest news and updates. subscribe our news letter :)</p><br>
+
+        <!--first Heading -->
+        <h4>ADDRESS</h4>
+         <span>Osogbo,Osun State Nigeria</span>
+         <hr><br><br>
+
+         <!--second Heading -->
+        <h4>PHONE</h4>
+         <span>+2348137632165</span>
+         <hr><br><br>
+
+       <!--third Heading -->
+        <h4>EMAIL</h4>
+         <span>fataiwasiu2@gmail.com</span>
+         <hr> <br>
+
+         <!-- social media icons -->
+         <a href="https://www.facebook.com/abdulfatai.abdulwasiu.39">
+						<i class="fab fa-facebook-f"></i
+					></a>
+         	<a href="https://twitter.com/wastech_a">
+						<i class="fab fa-twitter"></i
+					></a>
+          <a href="mailto:fataiwasiu2@gmail.com">
+						<i class="fas fa-envelope-open-text fa-1x"></i
+					></a>
+         <a href="https://www.linkedin.com/in/abdulfatai-abdulwasiu-370582111/">
+						<i class="fab fa-linkedin fa-1x"></i
+					></a>
+        <a href="https://github.com/wastech">
+						<i class="fab fa-github fa-1x"></i
+					></a>
+      </div>
+
+      <!-- form right -->
+      <div class="Form-right">
+        <h1>Contact Us</h1>
+        <div class="line"></div>
+        <!-- form -->
+        <form action="">
+          <h5>NAME</h5>
+          <input type="text"><br><br>
+          <h5>EMAIL</h5>
+          <input type="email"><br><br>
+          <h5>PHONE</h5>
+          <input type="number"><br><br>
+          <h5>YOUR MESSAGE</h5>
+          <textarea name="" id="" cols="50" rows="7"></textarea><br>
+          <button>Send</button>
+        </form>
+      </div>
     </div>
-    <contactusform />
+    </div>
+  </section>
 </div>
 </template>
 
-<script>
-import contactusform from '@/components/contactusform.vue'
-import Image from '@/assets/twitter.png'
-import Image2 from '@/assets/github.jpg'
-export default {
-    components: {
-        contactusform
-    },
-    data() {
-        return {
-            items: [{
-                    icon: 'fab fa-whatsapp',
-                    link: 'https://wa.me/2348137632165'
-
-                },
-                {
-                    icon: 'fab fa-twitter',
-                    link: 'https://twitter.com/wastech_a'
-                }, {
-                    icon: 'fas fa-envelope-open-text',
-                    link: 'mailto:fataiwasiu2@gmail.com'
-                }, {
-                    icon: 'fab fa-github ',
-                    link: 'https://github.com/wastech'
-                },
-
-            ]
-        }
-    }
-}
-</script>
-
 <style scoped>
-body {
-    padding: 3rem 4rem 0;
-    background-color: #e0e0e0;
-    color: #999;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 680px;
-    font-family: "Arial", sans-serif;
-    margin: 0 auto;
+body{
+ padding: 0;
+ margin: 0;
+ line-height: 1.5;
+ box-sizing: border-box;
+ color:rgba(248, 248, 248, 0.938);
+ 
 }
 
-h2 {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+/* background image  */
+#fancy-form{
+ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url("https://raw.githubusercontent.com/MujtabaOfficial/My-youtube-channel-TWD-tutorials-code/master/My%20Youtube%20channel%20TWD%20tutorials%20code/fancy%20form/imgs/particles.jpg");
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
 }
 
-* {
-    box-sizing: border-box;
+/* container utility */
+#fancy-form .container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.neumorphic {
-    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-        -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
-    font-size: 5rem;
-    width: 5em;
-    height: 10%;
-    border-radius: 40px;
-    overflow: hidden;
-    padding: 1.3rem;
-    display: flex;
-    margin: 1rem;
+/* main div */
+.form-sections{
+  margin-top: 5rem;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.variation1 {
-    background: linear-gradient(-45deg,
-            rgba(0, 0, 0, 0.2),
-            rgba(255, 255, 255, 0.3));
+/* Form-left styling */
+.Form-left h1{
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
-.variation1 span {
+.Form-left h4{
+  padding: 0;
+  margin: 0;
+  color: rgb(243, 235, 235);
+}
+.line{
+  border-bottom: 2px solid rgb(12, 168, 207);
+  width: 8%;
+  margin-left: 0;
+}
+.Form-left span{
+  color: rgb(187, 182, 182);
+  font-weight: bold;
+}
 
+.Form-left hr{
+  width: 25rem;
+  margin-left: 0;
+  border: 1px solid rgb(53, 52, 52);
+}
+
+/* socail media icons */
+.fas, .fab{
+  padding: 8px;
+  font-size: 18px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  color: rgb(187, 182, 182);
+}
+.fas, .fab:hover{
+  color: rgb(16, 135, 190);;
+}
+
+
+
+/* Form Right Styling */
+.Form-right h1{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+form{
+  padding-top: 2rem;
+}
+
+form h5{
+  padding: 0;
+  margin: 0;
+  color: rgb(228, 218, 218);
+}
+form input{
+  padding:0.6rem;
+  width: 27rem;
+  border: none;
+  background-color:rgba(136, 133, 133, 0.3);
+  color:white;
+  border: none;
+  outline:none;
+}
+
+form textarea{
+  padding:0.6rem;
+  width: 27rem;
+  border: none;
+  background-color:rgba(136, 133, 133, 0.3);
+  color:white;
+  border: none;
+  outline:none;
+ }
+
+ form button{
+    width: 9rem;
+    background: rgb(12, 168, 207);
+    padding: 5px;
+    outline: none;
+    border-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    overflow: hidden;
-    padding: 0.65rem;
-    box-shadow: inset 8px 8px 16px 0 rgba(0, 0, 0, 0.2),
-        inset -8px -8px 16px 0 rgba(255, 255, 255, 0.4);
-}
+    margin-top: 0.9rem;
+    border-radius: 50px;
+    cursor: pointer;
+ }
 
-.variation1 strong {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    overflow: hidden;
-    background-color: white;
-    color: white;
-}
 
-.variation1.pressed strong {
-    background-color: #bb3c20;
-}
+ /* media queries */
+   @media (max-width: 968px){
 
-.v-application--wrap {
-    background-color: #269;
-    background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
-    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-}
+     #fancy-form .form-sections{
+       display: block;
+       width: 100%;
+       text-align: left;
+          }
 
-h5 {
-    margin-bottom: 0.5em;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    text-align: center;
-    font-weight: bolder;
+      /* background image  */
+      #fancy-form{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("https://raw.githubusercontent.com/MujtabaOfficial/My-youtube-channel-TWD-tutorials-code/master/My%20Youtube%20channel%20TWD%20tutorials%20code/fancy%20form/imgs/particles.jpg");
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 100%;
+         }
 
-    font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: capitalize;
-}
+      .form-sections .Form-right{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+         }
+
+    /* socail media icons */
+        .fa{
+         padding: 8px;
+         font-size: 18px;
+         width: 30px;
+         text-align: center;
+         text-decoration: none;
+         color: rgb(187, 182, 182);
+             }
+          }
+
 </style>
