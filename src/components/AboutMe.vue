@@ -37,6 +37,9 @@
     height: auto;
 	object-fit: cover;
 }
+img{
+   object-fit: cover; 
+}
 
 .text {
     margin-top: 2em;
@@ -94,6 +97,9 @@
         display: inline-block;
 
     }
+    img{
+   object-fit: cover; 
+}
 
     .center {
         width: 80%;

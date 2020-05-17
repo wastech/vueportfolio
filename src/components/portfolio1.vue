@@ -56,6 +56,9 @@ h1 {
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
   font-weight: bolder;
 }
+img{
+   object-fit: cover; 
+}
 
 .main {
   width: 80%;
@@ -134,6 +137,8 @@ h1 {
 img {
   width: 300px;
   height: 400px;
+   object-fit: cover; 
+  
 }
 
 .card .details p {

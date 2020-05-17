@@ -56,7 +56,7 @@ export default {
           text: ' '
         },
         {
-          image: wastech,
+          image: wastech3,
           detail: 'vuejsmusicapp',
           text: ' '
         }

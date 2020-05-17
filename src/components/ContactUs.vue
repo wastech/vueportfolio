@@ -78,7 +78,7 @@ body{
 
 /* background image  */
 #fancy-form{
- background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url("https://raw.githubusercontent.com/MujtabaOfficial/My-youtube-channel-TWD-tutorials-code/master/My%20Youtube%20channel%20TWD%20tutorials%20code/fancy%20form/imgs/particles.jpg");
+ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url("../assets/back.jpg");
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -207,7 +207,7 @@ form textarea{
 
       /* background image  */
       #fancy-form{
-        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("https://raw.githubusercontent.com/MujtabaOfficial/My-youtube-channel-TWD-tutorials-code/master/My%20Youtube%20channel%20TWD%20tutorials%20code/fancy%20form/imgs/particles.jpg");
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("../assets/back.jpg");
         background-size: cover;
         background-position: center;
         height: auto;
