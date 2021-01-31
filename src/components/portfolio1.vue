@@ -31,11 +31,7 @@ export default {
           detail: "CSC ROBOT",
           text: " ",
         },
-        {
-          image: wastech,
-          detail: "PORTFOLIO",
-          text: "a simple minimal,clean and modern portfolio built with vuejs and nodejs",
-        },
+      
         {
           image: "https://i.pinimg.com/564x/32/bf/2e/32bf2ed4ab6a4cd7dffb6c4ca95cfa13.jpg",
           detail: "BUSINESS WEB",

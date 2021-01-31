@@ -63,7 +63,7 @@ export default {
                 {
                     icon: 'folder',
                     title: 'Portfolio',
-                    link: '/portfolio'
+                    link: '/blog'
                 },
 
                 {

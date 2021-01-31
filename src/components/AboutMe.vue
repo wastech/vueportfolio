@@ -5,8 +5,8 @@
         <img src="@/assets/aboutus.jpg" alt="Paris" class="center">
         <div class="text">
             <h1 class="title">WE ARE RESPONSIBLE</h1>
-            <p class="paragraph"> I'm a Certified Computer Scientist and Experienced Software Developer with a demonstrated history
-                of working in the internet industry. Skilled in<b style="color:green;"> Nodejs</b>, <b style="color:green;">Mongodb</b>, <b style="color:green;">Vuejs</b>, <b style="color:green;">Javascript</b>,<b style="color:green;">Python</b> and <b style="color:green;">Java</b>. As
+            <p class="paragraph"> I'm a Certified Computer Scientist and Experienced front-End Developer with a demonstrated history
+                of working in the internet industry. Skilled in<b style="color:green;"> HTML</b>, <b style="color:green;">CSS</b>, <b style="color:green;">BOOTSRAP</b>, <b style="color:green;">Javascript</b>,<!--<b style="color:green;">Python</b>--> and <b style="color:green;">Java</b>. As
                 a professional i would like to climb upon the ladders of knowledge
                 and skills. I can prove myself as mission oriented, enthusiastic and a successful individual.</p>
             <button class="button">

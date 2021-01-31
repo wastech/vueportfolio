@@ -17,12 +17,12 @@
 
          <!--second Heading -->
         <h4>PHONE</h4>
-         <span>+2348137632165</span>
+         <span>+23407036626643</span>
          <hr><br><br>
 
        <!--third Heading -->
         <h4>EMAIL</h4>
-         <span>fataiwasiu2@gmail.com</span>
+         <span>olanrele2015@gmail.com</span>
          <hr> <br>
 
          <!-- social media icons -->

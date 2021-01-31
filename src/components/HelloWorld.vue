@@ -24,8 +24,8 @@ export default {
             parallaxFixedContent: true,
             slides: [{
                     image: 'https://cdn.dribbble.com/users/3809802/screenshots/10373511/media/8259019d3ef70c373be081e011404779.jpg',
-                    title: 'Hi, I am Aremu',
-                    content: 'FRONTEND DEVELOPER AND WEB DEVELOPER'
+                    title: 'Hi, I am mhiztatee',
+                    content: 'FRONTEND DEVELOPER'
                 },
                 {
                     image: 'https://cdn.dribbble.com/users/902546/screenshots/6233250/11_copy_4x.png?compress=1&resize=800x600',

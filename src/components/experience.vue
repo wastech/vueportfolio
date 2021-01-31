@@ -31,18 +31,14 @@ export default {
         return {
             items: [{
                     icon: "2019-2020",
-                    hd: 'Uniosun Data Science lead',
+                    hd: 'Uniosun Data Science member',
                     text: 'I was among the volounteer developers Organising and conducting the Osogbo Data science Community with the aims of cater for and training over 2 thousand students across the State.'
                 },
+              
                 {
-                    icon: "2018-2020",
-                    hd: 'professional freelancer[fiverr,upwork,freelancer]',
-                    text: '  I am working as a MEVN developer freelancer from last 2 years. I do the required task assigned by client to best of my abilities'
-                },
-                {
-                    icon: "2019-2020",
-                    hd: 'Macrowareltd Frontend Developer',
-                    text: 'Macrowareltd is the leading nigeria IT company focused on innovation, because w believe the future we all anticipate starts in africa'
+                    icon: "2020-2020",
+                    hd: 'OIC Frontend Developer',
+                    text: 'OIC is the leading nigeria IT company focused on innovation, because w believe the future we all anticipate starts in africa'
                 },
 
             ]
