@@ -31,7 +31,7 @@
         <v-app-bar-nav-icon @click="sideNav = !sideNav" class="hidden-sm-and-up"> </v-app-bar-nav-icon>
         <v-toolbar-title>
             <router-link to="/" tag="span" style="cursor: pointer">
-                wastech</router-link>
+                Mhizta_tee</router-link>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-xs-only">
